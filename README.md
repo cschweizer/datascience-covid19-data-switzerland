@@ -1,7 +1,7 @@
 # Covid19 Data - Switzerland
 
-## About
-Jupyter Notebook with code to import covid data from Switzerland from OpenZH (Source described below). The data will be preprocessed and cleaned. Output will be stored in CovidData.csv.
+## About
+This project imports daily covid data from Switzerland from OpenZH (Source described below). The data will be preprocessed and cleaned. Output will be stored in a CSV File.
 
 ## Setup
 - pip3 install requests
