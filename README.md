@@ -6,6 +6,8 @@ Jupyter Notebook with code to import covid data from Switzerland from OpenZH (So
 ## Setup
 - pip3 install requests
 - pip3 install pandas
+- pip3 install seaborn
+- pip3 install plotly
 
 ## Sources
 OpenZH (Specialist Unit for Open Government Data Canton of Zurich): https://github.com/openZH/covid_19
