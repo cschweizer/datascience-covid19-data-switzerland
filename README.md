@@ -3,9 +3,9 @@ Demo Project to import, analyze and visualize Covid Data from Switzerland. Devel
 
 ## Data Science
 Import of daily Covid data from OpenZH (Source described below). Data is preprocessed and cleaned. Output is stored in a CSV File (Data/CovidData) and Archived (Data/Archive).
-- [Data preprocessing](01 Data Import/ImportData.ipynb)
-- [Descriptive Analytics](02 Data Analytics/DescribtiveAnalytics.ipynb)
-- [Visualization](02 Data Analytics/Visualizations.ipynb)
+- [Data preprocessing](https://github.com/cschweizer/datascience-covid19-data-switzerland/blob/master/01%20Data%20Import/ImportData.ipynb)
+- [Descriptive Analytics](https://github.com/cschweizer/datascience-covid19-data-switzerland/blob/master/02%20Data%20Analytics/DescribtiveAnalytics.ipynb)
+- [Visualization](https://github.com/cschweizer/datascience-covid19-data-switzerland/blob/master/02%20Data%20Analytics/Visualizations.ipynb)
 
 ## Project
 Projet Setup and Packages used for this Project. 
