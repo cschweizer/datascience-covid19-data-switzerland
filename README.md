@@ -5,6 +5,8 @@ Demo Project to import, analyze and visualize Covid Data from Switzerland. Devel
 Import of daily Covid data from OpenZH (Source described below). Data is preprocessed and cleaned. Output is stored in a CSV File (Data/CovidData) and Archived (Data/Archive).
 
 # Project
+Projet Setup and required Packages. Planned and further implementations.
+
 ## Setup
 - pip3 install requests
 - pip3 install pandas
@@ -19,6 +21,7 @@ Import of daily Covid data from OpenZH (Source described below). Data is preproc
 - Visualization mit GeoPandas
 
 ## Data
+Data Source, Processing and Documentation of the Output Data.
 ## Sources
 OpenZH (Specialist Unit for Open Government Data Canton of Zurich): https://github.com/openZH/covid_19
 
