@@ -4,16 +4,17 @@ Demo Project to import, analyze and visualize Covid Data from Switzerland. Devel
 ## About
 Import of daily Covid data from OpenZH (Source described below). Data is preprocessed and cleaned. Output is stored in a CSV File (Data/CovidData) and Archived (Data/Archive).
 
-# Project
-Projet Setup and required Packages. Planned and further implementations.
+## Project
+Projet Setup and Packages used for this Project. 
+Ideas for further Implementations.
 
-## Setup
+### Setup
 - pip3 install requests
 - pip3 install pandas
 - pip3 install seaborn
 - pip3 install plotly
 
-## Todo
+### Ideas
 - Vaccination
 - Positivitätsrate
 - externe Sources (Wetter, Stringency Index)
@@ -22,65 +23,65 @@ Projet Setup and required Packages. Planned and further implementations.
 
 ## Data
 Data Source, Processing and Documentation of the Output Data.
-## Sources
+### Sources
 OpenZH (Specialist Unit for Open Government Data Canton of Zurich): https://github.com/openZH/covid_19
 
-## Processing
+### Processing
 - Aggregates all Cantons in one Dataset
 - Add Daily Numbers (Tested, Confirmed, Released, Deceased)
 - Add seven day means for Confirmed and Deceased Cases
 
-## Structure
-### 'date'
+### Structure
+#### 'date'
 Date when the numbers where reported
 
-### 'canton'
+#### 'canton'
 Canton in which the numbers where reported
 
-### 'daily_tested'
+#### 'daily_tested'
 Amount of tests per day
 
-### 'ncumul_tested'
+#### 'ncumul_tested'
 Ammount of tests total
 
-### 'daily_conf'
+#### 'daily_conf'
 Amount of positive tests per day
 
-### 'ncumul_conf'
+#### 'ncumul_conf'
 Amount of positive tests total
 
-### 'seven_day_conf'
+#### 'seven_day_conf'
 Seven Day mean of positive tests per days
 
-### 'testRelation'
+#### 'testRelation'
 % positive tests to total tests
 
-### 'new_hosp'
+#### 'new_hosp'
 Amount of new hospitalisations per day
 
-### 'current_icu'
+#### 'current_icu'
 Amount of ICU patients
 
-### 'current_vent'
+#### 'current_vent'
 Amount of patients which needs vent
 
-### 'ncumul_released'
+#### 'ncumul_released'
 Amount of released patients total
 
-### 'daily_released'
+#### 'daily_released'
 Amount of released patients per day
 
-### 'daily_deceased'
+#### 'daily_deceased'
 Amount of deceased patients per day
 
-### 'ncumul_deceased'
+#### 'ncumul_deceased'
 Amount of deceased patients total
 
-### 'seven_day_dec'
+#### 'seven_day_dec'
 Seven day mean of deceased patients
 
-### 'current_isolated'
+#### 'current_isolated'
 Total amount of persons which are currently isolated
 
-### 'current_quarantined_total'
+#### 'current_quarantined_total'
 Total amount of persons which are currently quarantined
