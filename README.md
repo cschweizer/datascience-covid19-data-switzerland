@@ -9,6 +9,13 @@ This project imports daily covid data from Switzerland from OpenZH (Source descr
 - pip3 install seaborn
 - pip3 install plotly
 
+## Todo
+- Vaccination
+- Positivitätsrate
+- externe Sources (Wetter, Stringency Index)
+- Descriptive: Total Infizierte / Geimpfte / % ..
+- Visualization mit GeoPandas
+
 ## Sources
 OpenZH (Specialist Unit for Open Government Data Canton of Zurich): https://github.com/openZH/covid_19
 
