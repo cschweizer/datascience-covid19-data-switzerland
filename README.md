@@ -1,8 +1,10 @@
 # Covid19 Data - Switzerland
+Demo Project to import, analyze and visualize Covid Data from Switzerland. Developed with Python, JupyterNotebook and VSCode.
 
 ## About
-This project imports daily covid data from Switzerland from OpenZH (Source described below). The data will be preprocessed and cleaned. Output will be stored in a CSV File.
+Import of daily Covid data from OpenZH (Source described below). Data is preprocessed and cleaned. Output is stored in a CSV File (Data/CovidData) and Archived (Data/Archive).
 
+# Project
 ## Setup
 - pip3 install requests
 - pip3 install pandas
@@ -16,15 +18,16 @@ This project imports daily covid data from Switzerland from OpenZH (Source descr
 - Descriptive: Total Infizierte / Geimpfte / % ..
 - Visualization mit GeoPandas
 
+## Data
 ## Sources
 OpenZH (Specialist Unit for Open Government Data Canton of Zurich): https://github.com/openZH/covid_19
 
-## Implementation
+## Processing
 - Aggregates all Cantons in one Dataset
 - Add Daily Numbers (Tested, Confirmed, Released, Deceased)
 - Add seven day means for Confirmed and Deceased Cases
 
-## Data Structure
+## Structure
 ### 'date'
 Date when the numbers where reported
 
